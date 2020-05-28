@@ -1,6 +1,6 @@
 Body  {
   background: rgb(199, 153, 241);
-  color: wheat;
+  color: green;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 0;
   padding: 0;
@@ -18,13 +18,28 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   opacity: .8;
 
 }
 ul {
   text-align: center;
 
+}
+h1  {
+  color: wheat;
+}
+a {
+ color: green;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 20px;
+  }
+
+a:hover {
+  text-decoration: underline;
 }
        
 link. {
@@ -34,12 +49,12 @@ link. {
 nav ul  {
  padding:  0;
  text-align: center;
- padding-bottom: 80px;
- border-color: wheat;
  }
 nav link  {
-  display: inline-flex;
-  margin: 5px;
+  display: inline-block;
+  block-size: 3px;
+  margin: 10px;
+  text-align: center;
   }
 
 nav h1  {
@@ -49,24 +64,36 @@ nav h1  {
 }
 
 .index-layout {
-max-width: 1300px;
-  background-color: #FFF;
+max-width: 2000px;
+  background-image: url(https://i.pinimg.com/originals/ab/2c/56/ab2c567fbd5e65435a4b117f9818ec99.gif);
   margin: 40px auto 0 auto;
   line-height: 1.65;
   padding: 20px 50px;
   display: flex;
+  
 
 }
 
 
-.column-layout {
+.stock-layout {
   max-width: 1300px;
-  background-color: #FFF;
+  background-image: url(https://i.pinimg.com/originals/ab/2c/56/ab2c567fbd5e65435a4b117f9818ec99.gif);
   margin: 40px auto 0 auto;
   line-height: 1.65;
   padding: 20px 50px;
   display: flex;
 }
+
+.stock-layout img {
+  height: 250px;
+  width: 250px;
+  border: 1px solid rgb(199, 153, 241);
+        border-radius: 50%;
+        box-shadow: white 0 0 10px;
+        width: 200px;
+}
+
+
 .one-two {
   flex: 1;
   order: 1;
@@ -83,17 +110,11 @@ max-width: 1300px;
 }
 .info-layout {
   max-width: 1300px;
-  background-color: #FFF;
-  margin: 40px auto 0 auto;
-  line-height: 1.65;
+ background-image: url(https://i.pinimg.com/originals/ab/2c/56/ab2c567fbd5e65435a4b117f9818ec99.gif);
+ margin: 40px auto 0 auto;
+ line-height: 1.65;
   padding: 20px 50px;
 
 }
 
-footer {
-Background: white;
-padding: 20px 10px;
-font-size: 14px;
-color: wheat;
-text-align: cener; }
         
